@@ -16,6 +16,17 @@
     .container{max-width:960px;margin:28px auto;padding:24px}
     header{display:flex;align-items:center;gap:16px}
     .logo{width:86px;height:86px;border-radius:12px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:var(--card);box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.banner {
+            width: 100%;
+            max-height: 800px;
+            overflow: hidden;
+        }
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
     .brand{font-weight:700;font-size:28px;color:var(--accent)}
     .tag{color:var(--muted);font-size:14px;margin-top:6px}
     .hero{display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:center;margin-top:22px}
@@ -38,11 +49,17 @@
 <body>
   <div class="container">
     <header>
-      <div class="logo"><img src="C:\Users\shami\Desktop\Business\Happytots\Myhappytote" alt="Happytote logo" style="width:100%;height:100%;object-fit:cover"></div>
+      <!--div class="logo"><img src="C:\Users\shami\Desktop\Business\Happytots\Myhappytote\logo.png" alt="Happytote logo" style="width:100%;height:100%;object-fit:cover"></div>
       <div>
-        <div class="brand">Happytote</div>
+        <div class="brand">MyHappyTote</div>
         <div class="tag">Playful learning, packed with love.</div>
       </div>
+
+<!-- Banner Section -->
+    <div class="banner">
+        <img src="C:\Users\shami\Desktop\Business\Happytots\Myhappytote\banner_img.png" alt="Happytote Facebook Banner">
+    </div>
+
     </header>
 
     <section class="hero">
@@ -51,7 +68,7 @@
         <p>Small, playful lessons that build curiosity and confidence. Download our free starter pack and get a new printable every week.</p>
         <div class="cta">
           <a class="btn" href="#download">Get free starter pack</a>
-          <a class="btn alt" href="#features">Why Happytote</a>
+          <a class="btn alt" href="#features">Why MyHappyTote</a>
         </div>
 
         <div class="features" id="features" style="margin-top:20px">
@@ -82,7 +99,7 @@
       <div>© <strong>Happytote</strong> • Playful learning for little minds</div>
       <div class="social">
         <a href="INSTAGRAM_LINK">Instagram</a>
-        <a href="FACEBOOK_LINK">Facebook</a>
+        <a href="https://www.facebook.com/HappytoteLLC">Facebook</a>
         <a href="PINTEREST_LINK">Pinterest</a>
       </div>
     </footer>
